@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversario, Mi Bonita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Feliz Aniversario, Mi Preciosa</h1>
+    <h2>6 Meses de Un Amor Complejo, Real y Eterno</h2>
+    <p>Hoy celebramos algo que muchos solo sueñan: un amor tan auténtico y tan poderoso que trasciende el tiempo. Un amor que no es perfecto, pero que es verdadero. No siempre es fácil, pero cada momento contigo es una bendición. Nuestro amor es una historia que nunca acaba, que sigue escribiéndose, un capítulo tras otro. Es el tipo de amor que solo ves en los libros, pero que en la vida real es aún más profundo.</p>
+    <div class="seccion" onclick="toggleSeccion(this)">
+      <h3>¿Qué es lo que más amo de ti?</h3>
+      <div class="contenido-seccion">
+        <p>Te amo por ser quien eres, y por cómo me haces sentir. Tú no eres solo mi pareja, eres mi refugio, mi hogar, el lugar al que siempre quiero regresar y pertenecer. Tú y yo somos una combinación perfecta de almas que se encuentran en medio del caos. Como si todo lo demás en el mundo fuera solo ruido, y cuando estamos juntos, solo existimos nosotros dos. No me importa si a veces discutimos o no estamos de acuerdo en todo, porque lo que compartimos es más fuerte que cualquier diferencia. Nuestra conexión es única, irrepetible, no tiene comparación. Y aunque no siempre veamos el mismo camino, sé que lo caminaremos juntos, uno al lado del otro.</p>
+      </div>
+    </div>
+    <div class="seccion" onclick="toggleSeccion(this)">
+      <h3>Abigail y Félix</h3>
+      <div class="contenido-seccion">
+        <p>El amor real no es como lo cuentan en los cuentos de hadas. No siempre es perfecto, ni siempre fácil. A veces, es complicado, es un torbellino de emociones que te lleva de un lado a otro. Pero es en esos momentos difíciles cuando más fuerte se vuelve, cuando cada desafío juntos solo nos une más. Y aunque el mundo a veces parezca un caos, tu amor es la calma que encuentro en medio de todo. Nosotros somos un amor que vence obstáculos, que crece, que nunca se apaga.</p>
+        <p>Lo que más amo de ti no son solo tus sonrisas, tus abrazos o tus palabras. Es tu forma de ser, cómo haces que todo a tu alrededor sea más bonito solo con tu presencia. Como esos momentos que ocurren en películas románticas, donde un simple gesto puede decir más que mil palabras. Eso es lo que me hace sentir afortunado, tener la suerte de vivir una historia contigo, la cual no quiero que nunca termine.</p>
+      </div>
+    </div>
+
+    <button class="audio-btn" onclick="reproducirCancion()">🎵 Reproducir Canción Especial</button>
+    <audio id="musica" src="1.mp3" loop></audio>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
